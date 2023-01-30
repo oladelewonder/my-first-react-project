@@ -5,9 +5,10 @@ import About from './components/About.js';
 import Interests from './components/Interests.js';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Info />
       <About />
       <Interests />
